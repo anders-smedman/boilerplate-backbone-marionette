@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backbone</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta charset="utf-8">
+  </head>
+  <body>  
+
+
+    <section id="fblist">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+              <h3><i class="fa fa-cloud"></i><span class="glyphicon glyphicon-plane"></span> Fetch @<span id="instagram_profile"></span> Instagram</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+              <ul id="list">
+                <li><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+      <!-- backbone views -->
+      <script type="text/template" id="entrytemplate">
+        <a href="<%- link %>" target="_blank">
+          <img src="<%- image %>" class="img-responsive" />
+        </a>
+      </script>
+
+  </body>
+</html>
